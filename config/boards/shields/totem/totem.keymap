@@ -73,7 +73,7 @@
     Media {
         label = "Media";
         bindings = <
-                &trans    &trans    &trans     &trans      &trans               &trans            &trans             &trans           &trans      &trans  
+                &trans    &trans    &trans     &trans      &trans               &studio_unlock            &trans             &trans           &trans      &trans  
                 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans               &trans    &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  
         &trans  &trans    &trans    &trans     &trans      &trans               &trans            &trans             &trans           &trans      &trans  &trans
                                     &trans     &trans      &tog 8           &kp C_STOP  &kp C_PLAY_PAUSE             &trans  
