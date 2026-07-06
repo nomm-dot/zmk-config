@@ -102,8 +102,8 @@
         base_layer {
             bindings = <
                    &kp Q      &kp W      &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O      &kp P
-        &none      &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G           &kp H       &hm LSHFT J &hm LCTRL K &hm LALT L &hm LGUI SEMI  &none
-                   &kp Z      &kp X      &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT    &kp FSLH
+                   &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &kp G           &kp H       &hm LSHFT J &hm LCTRL K &hm LALT L &hm LGUI SEMI
+        &none      &kp Z      &kp X      &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT    &kp FSLH      &none
                                          &lt MEDIA ESC &lt NAV SPACE &lt MOUSE TAB &lt SYM RET &num_bspc NUM 0 &lt FUN DEL
             >;
         };
@@ -112,8 +112,8 @@
         nav_layer {
             bindings = <
                    &trans     &trans     &trans      &trans      &trans          &kp K_REDO  &kp K_PASTE &kp K_COPY  &kp K_CUT  &kp K_UNDO
-        &none      &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &caps_word     &none
-                   &trans     &trans     &trans      &trans      &trans          &kp HOME    &kp PG_DN   &kp PG_UP   &kp END    &kp INS
+                   &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &caps_word
+        &none      &trans     &trans     &trans      &trans      &trans          &kp HOME    &kp PG_DN   &kp PG_UP   &kp END    &kp INS     &none
                                          &trans      &trans      &trans          &trans      &trans      &trans
             >;
         };
@@ -123,8 +123,8 @@
             // This is laid out for future integration, currently falling back to trans.
             bindings = <
                    &trans     &trans     &trans      &trans      &trans          &trans      &trans      &trans      &trans     &trans
-        &none      &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &trans      &trans      &trans      &trans     &trans         &none
-                   &trans     &trans     &trans      &trans      &trans          &trans      &trans      &trans      &trans     &trans
+                   &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &trans      &trans      &trans      &trans     &trans
+        &none      &trans     &trans     &trans      &trans      &trans          &trans      &trans      &trans      &trans     &trans         &none
                                          &trans      &trans      &trans          &trans      &trans      &trans
             >;
         };
@@ -132,8 +132,8 @@
         media_layer {
             bindings = <
                    &trans     &trans     &trans      &trans      &trans          &tog FUN      &kp C_BRI_DN  &kp C_BRI_UP  &trans       &studio_unlock
-        &none      &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT   &trans         &none
-                   &trans     &trans     &trans      &trans      &trans          &bt_0         &bt_1         &bt_2         &bt_3        &out OUT_TOG
+                   &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT   &trans
+        &none      &trans     &trans     &trans      &trans      &trans          &bt_0         &bt_1         &bt_2         &bt_3        &out OUT_TOG   &none
                                          &trans      &trans      &trans          &kp C_STOP    &kp C_PLAY_PAUSE &kp C_MUTE
             >;
         };
@@ -141,8 +141,8 @@
         num_layer {
             bindings = <
                    &kp LBKT   &kp N7     &kp N8      &kp N9      &kp RBKT        &trans      &trans      &trans      &trans     &trans
-        &none      &kp SQT    &kp N4     &kp N5      &kp N6      &kp EQUAL       &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI       &none
-                   &kp GRAVE  &kp N1     &kp N2      &kp N3      &kp BSLH        &trans      &trans      &trans      &trans     &trans
+                   &kp SQT    &kp N4     &kp N5      &kp N6      &kp EQUAL       &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI
+        &none      &kp GRAVE  &kp N1     &kp N2      &kp N3      &kp BSLH        &trans      &trans      &trans      &trans     &trans       &none
                                          &kp DOT     &kp N0      &kp MINUS       &trans      &trans      &trans
             >;
         };
@@ -150,8 +150,8 @@
         sym_layer {
             bindings = <
                    &kp LBRC   &kp AMPS   &kp ASTRK   &kp LPAR    &kp RBRC        &trans      &trans      &trans      &trans     &trans
-        &none      &kp DQT    &kp DLLR   &kp PRCNT   &kp CARET   &kp PLUS        &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI       &none
-                   &kp TILDE  &kp EXCL   &kp AT      &kp HASH    &kp PIPE        &trans      &trans      &trans      &trans     &trans
+                   &kp DQT    &kp DLLR   &kp PRCNT   &kp CARET   &kp PLUS        &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI
+        &none      &kp TILDE  &kp EXCL   &kp AT      &kp HASH    &kp PIPE        &trans      &trans      &trans      &trans     &trans       &none
                                          &kp LPAR    &kp RPAR    &kp UNDER       &trans      &trans      &trans
             >;
         };
@@ -159,8 +159,8 @@
         fun_layer {
             bindings = <
                    &kp F12    &kp F7     &kp F8      &kp F9      &kp PSCRN       &trans      &trans      &trans      &trans     &trans
-        &none      &kp F11    &kp F4     &kp F5      &kp F6      &kp SLCK        &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI       &none
-                   &kp F10    &kp F1     &kp F2      &kp F3      &kp PAUSE_BREAK &trans      &trans      &trans      &trans     &trans
+                   &kp F11    &kp F4     &kp F5      &kp F6      &kp SLCK        &trans      &kp LSHFT   &kp LCTRL   &kp LALT   &kp LGUI
+        &none      &kp F10    &kp F1     &kp F2      &kp F3      &kp PAUSE_BREAK &trans      &trans      &trans      &trans     &trans       &none
                                          &trans      &trans      &trans          &trans      &trans      &trans
             >;
         };
