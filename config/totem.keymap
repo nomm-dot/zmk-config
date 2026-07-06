@@ -133,8 +133,8 @@
         };
 
         media_layer {
-            bindings = <
             display-name = "MEDIA";
+            bindings = <
                    &trans     &trans     &trans      &trans      &trans          &tog FUN      &kp C_BRI_DN  &kp C_BRI_UP  &trans       &studio_unlock
                    &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT   &trans          &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT   &trans
         &none      &trans     &trans     &trans      &trans      &trans          &bt_0         &bt_1         &bt_2         &bt_3        &out OUT_TOG   &none
